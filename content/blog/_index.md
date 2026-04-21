@@ -29,6 +29,11 @@ cascade:
   show_author_byline: true
   show_post_date: true
   show_comments: false
+  # Individual blog pages aren't rendered: full post bodies appear inline on the home page.
+  # Resources (e.g. featured.jpg) are still published and available to the home layout.
+  _build:
+    render: "never"
+    list: "local"
   sidebar:
     text_link_label: View all posts
     text_link_url: /blog/

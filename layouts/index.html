@@ -12,31 +12,30 @@
 
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
-      {{ $news := first (.Params.news_count | default 10) (where site.RegularPages "Type" "blog").ByDate.Reverse }}
+      {{ $news := first (.Params.news_count | default 50) (where site.RegularPages "Type" "blog").ByDate.Reverse }}
       {{ with $news }}
       <section id="news" class="mt0">
-        <h2 class="f3 fw5 ttu tracked mb4">Recent news</h2>
-        <ul class="list pl0">
+        <h2 class="f3 fw5 ttu tracked mb4">News</h2>
+        <div class="news-stream">
           {{ range . }}
           {{ $img := (.Resources.ByType "image").GetMatch "*feature*" }}
           {{ if not $img }}{{ $img = (.Resources.ByType "image").GetMatch "*avatar*" }}{{ end }}
           {{ if not $img }}{{ $img = (.Resources.ByType "image").GetMatch "*thumb*" }}{{ end }}
-          <li class="news-item mb4 pb3 bb b--custom-border-color {{ if not $img }}no-thumb{{ end }}">
+          <article class="news-entry mb5 pb4 bb b--custom-border-color">
+            <p class="f6 ttu tracked mv1 custom-heading-color">{{ .Date.Format "02 Jan 2006" }}</p>
+            <h3 class="f3 fw5 mv1 lh-title">{{ .Title | markdownify }}</h3>
             {{ if $img }}
-            <a class="news-thumb-wrap" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
-              {{ $t := $img.Fill "480x320 smart q85" }}
-              <img class="news-thumb" src="{{ $t.RelPermalink }}" alt="">
-            </a>
+            {{ $t := $img.Fit "900x600 q85" }}
+            <figure class="news-entry-figure mv3">
+              <img class="news-entry-img" src="{{ $t.RelPermalink }}" alt="">
+            </figure>
             {{ end }}
-            <div class="news-body">
-              <p class="f6 ttu tracked mv1 custom-heading-color">{{ .Date.Format "02 Jan 2006" }}</p>
-              <h3 class="f4 fw5 mv1 lh-title"><a class="link underline-hover" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
-              {{ with .Params.description }}<p class="f5 lh-copy mt1 mb0">{{ . | markdownify }}</p>{{ end }}
+            <div class="news-entry-body f5 lh-copy">
+              {{ .Content }}
             </div>
-          </li>
+          </article>
           {{ end }}
-        </ul>
-        <p class="f6 mt4"><a class="link underline-hover" href="{{ "/blog/" | relURL }}">All news &rarr;</a></p>
+        </div>
       </section>
       {{ end }}
     </article>

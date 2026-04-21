@@ -1,40 +1,37 @@
 {{ define "main" }}
 <main class="page-main pa4 home-sparc" role="main">
-  {{ with (index .Params.images 0) }}
-  <figure class="mb4">
-    <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" class="w-100" style="display:block;border-radius:2px;">
-  </figure>
-  {{ end }}
+  <header class="home-hero">
+    <h1 class="lab-name">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="lab-subtitle">{{ . }}</p>{{ end }}
+    {{ with (index .Params.images 0) }}
+    <figure class="mb4">
+      <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" class="w-100 home-banner">
+    </figure>
+    {{ end }}
+  </header>
 
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
-      <header class="post-header mb3">
-        <h1 class="f1 lh-solid measure-narrow mb2 fw4">{{ .Title }}</h1>
-        {{ with .Params.subtitle }}<p class="f4 mt0 mb3 ttu tracked fw6 custom-heading-color">{{ . }}</p>{{ end }}
-      </header>
-
-      {{ $news := first (.Params.news_count | default 8) (where site.RegularPages "Type" "blog").ByDate.Reverse }}
+      {{ $news := first (.Params.news_count | default 10) (where site.RegularPages "Type" "blog").ByDate.Reverse }}
       {{ with $news }}
-      <section id="news" class="mt3">
+      <section id="news" class="mt0">
         <h2 class="f3 fw5 ttu tracked mb4">Recent news</h2>
         <ul class="list pl0">
           {{ range . }}
           {{ $img := (.Resources.ByType "image").GetMatch "*feature*" }}
           {{ if not $img }}{{ $img = (.Resources.ByType "image").GetMatch "*avatar*" }}{{ end }}
           {{ if not $img }}{{ $img = (.Resources.ByType "image").GetMatch "*thumb*" }}{{ end }}
-          <li class="news-item mb4 pb3 bb b--custom-border-color">
-            <div class="news-grid">
-              {{ if $img }}
-              <a class="news-thumb-wrap" href="{{ .RelPermalink }}">
-                {{ $t := $img.Fill "320x200 Center q85" }}
-                <img class="news-thumb" src="{{ $t.RelPermalink }}" alt="">
-              </a>
-              {{ end }}
-              <div class="news-body">
-                <p class="f6 ttu tracked mv1 custom-heading-color">{{ .Date.Format "02 Jan 2006" }}</p>
-                <h3 class="f4 fw5 mv1 lh-title"><a class="link underline-hover" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
-                {{ with .Params.description }}<p class="f5 lh-copy mt1 mb0">{{ . | markdownify }}</p>{{ end }}
-              </div>
+          <li class="news-item mb4 pb3 bb b--custom-border-color {{ if not $img }}no-thumb{{ end }}">
+            {{ if $img }}
+            <a class="news-thumb-wrap" href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1">
+              {{ $t := $img.Fill "480x320 smart q85" }}
+              <img class="news-thumb" src="{{ $t.RelPermalink }}" alt="">
+            </a>
+            {{ end }}
+            <div class="news-body">
+              <p class="f6 ttu tracked mv1 custom-heading-color">{{ .Date.Format "02 Jan 2006" }}</p>
+              <h3 class="f4 fw5 mv1 lh-title"><a class="link underline-hover" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+              {{ with .Params.description }}<p class="f5 lh-copy mt1 mb0">{{ . | markdownify }}</p>{{ end }}
             </div>
           </li>
           {{ end }}
@@ -47,9 +44,11 @@
 </main>
 
 <aside class="page-sidebar" role="complementary">
-  <div class="ph4 pt4 pb4">
+  <div class="ph4 pt4 pb4 home-sidebar">
+    <img src="{{ "/img/sparc-logo.png" | relURL }}" alt="SPARC" class="sidebar-logo mb3">
+
     {{ with .Content }}
-    <section class="lab-description f5 lh-copy mb4">
+    <section class="lab-description mb4">
       {{ . }}
     </section>
     {{ end }}

@@ -31,7 +31,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
   orgLocal = "University of Münster"
   description = "Spatial and Architectural Cognition (SPARC) Lab at the Institute for Geoinformatics, University of Münster."
   favicon = "/img/favicon.ico"
-  logo = "/img/sparc-logo.png"
+  # logo deliberately unset: header shows site title as text, image logo lives in the home sidebar
   mainSections = ["blog"]
   navallcaps = true
   socialInHeader = false

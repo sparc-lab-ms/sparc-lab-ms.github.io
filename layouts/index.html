@@ -1,5 +1,10 @@
 {{ define "main" }}
 <main class="page-main pa4 home-sparc" role="main">
+  {{ with (index .Params.images 0) }}
+  <figure class="mb4">
+    <img src="{{ . | relURL }}" alt="SPARC Lab" class="w-100" style="display:block;border-radius:2px;">
+  </figure>
+  {{ end }}
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
       <header class="post-header mb4">

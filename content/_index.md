@@ -3,7 +3,7 @@ title: "SPARC Lab"
 subtitle: "Spatial and Architectural Cognition"
 description: "Institute for Geoinformatics, University of Münster."
 images:
-  - img/sparc-hero.jpg
+  - img/banner-gallery.jpg
 show_social_links: true
 type: home
 layout: list-sidebar

@@ -67,6 +67,33 @@ $borderColorCustom: #c7d9a3;
   border-color: $buttonBgColorCustom;
 }
 
+// ---- news list on home page ----
+.news-item {
+  list-style: none;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+@media (max-width: 600px) {
+  .news-grid { grid-template-columns: 1fr; }
+}
+.news-thumb-wrap {
+  display: block;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.news-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.lab-description p { margin: 0 0 0.75rem 0; }
+.lab-description p:last-child { margin-bottom: 0; }
+
 // ---- team cards ----
 .team-cards .team-card article {
   background-color: #fff;

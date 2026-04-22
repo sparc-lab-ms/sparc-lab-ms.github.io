@@ -4,13 +4,13 @@ subtitle: "at the Institute for Geoinformatics in Münster, Germany"
 description: "Institute for Geoinformatics, University of Münster."
 images:
   - img/banner-gallery.jpg
-show_social_links: true
+show_social_links: false
 type: home
 layout: list-sidebar
 news_count: 10
 contact:
   name: "Prof. Dr. Jakub Krukar"
-  name_url: "https://www.uni-muenster.de/Geoinformatics/en/institute/people.html"
+  name_url: "https://www.uni-muenster.de/Geoinformatics/institute/staff/index.php/232/Jakub_Krukar"
   address:
     - "Institute for Geoinformatics"
     - "Room 141"

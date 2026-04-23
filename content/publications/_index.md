@@ -1,6 +1,5 @@
 ---
 title: Publications
-description: SPARC publications and scientific talks.
 show_title_as_headline: true
 show_comments: false
 ---

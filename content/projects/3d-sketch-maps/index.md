@@ -15,9 +15,9 @@ Our role in the project focuses on the problem of analysing 3d sketch maps. Thes
 
 One of our approaches, inspired by the concept of "convex spaces" from the architectural theory of Space Syntax, relies on diving the sketch maps into cuboids, and analysing qualitative relations between them. Our plugin for supporting this analysis within Grasshopper software is available on [github](https://github.com/kubakrukar/3D-Sketch-Map-Analysis).
 
+![Ground-truth building and sketch map decomposed into cuboids and matched across stairs](3dSM-method1.jpg)
+
 More details are available on the [Swiss National Science Foundation website](https://data.snf.ch/grants/grant/202284).
-  *[doi]: Digital Object Identifier
-  *[Vol.]: Volume
 
 ### Articles
 
@@ -36,6 +36,3 @@ More details are available on the [Swiss National Science Foundation website](ht
   * Manivannan, C., Krukar, J., and Schwering, A. 2022. “[Spatial generalization in sketch maps: A systematic classification](https://cris.uni-muenster.de/portal/en/publication/84399001).” Journal of Environmental Psychology 83. doi: [10.1016/j.jenvp.2022.101851](https://dx.doi.org/10.1016/j.jenvp.2022.101851).
   * Kim, K.G., Krukar, J., Mavros, P., Zhao, J., Kiefer, P., Schwering, A., Hölscher, C., and Raubal, M. 2022. “[3D Sketch Maps: Concept, Potential Benefits, and Challenges](https://cris.uni-muenster.de/portal/en/publication/95737936).” in 15th International Conference on Spatial Information Theory (COSIT 2022), Vol. 240 of Leibniz International Proceedings in Informatics (LIPIcs), edited by Ishikawa, Fabrikant and Winter. Kyoto: Dagstuhl Publishing. doi: [10.4230/LIPIcs.COSIT.2022.14](https://dx.doi.org/10.4230/LIPIcs.COSIT.2022.14).
   * Schwering, A., Krukar, J., Manivannan, C., Chipofya, M., and Jan, S. 2022. “[Generalized, Inaccurate, Incomplete: How to Comprehensively Analyze Sketch Maps Beyond Their Metric Correctness](https://cris.uni-muenster.de/portal/en/publication/95738279).” in 15th International Conference on Spatial Information Theory (COSIT 2022), Vol. 240 of Leibniz International Proceedings in Informatics (LIPIcs), edited by Ishikawa, Fabrikant and Winter. Kyoto: Dagstuhl Publishing. doi: [10.4230/LIPIcs.COSIT.2022.8](https://dx.doi.org/10.4230/LIPIcs.COSIT.2022.8).
-
-  *[doi]: Digital Object Identifier
-  *[Vol.]: Volume

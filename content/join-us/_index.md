@@ -7,7 +7,7 @@ show_comments: false
 
 # Open Positions
 
-**Student Assistants (SHK):** If you're a student at our university interested in the topics tackled at SPARC, get in touch - we might have open opportunities for up to 8hr/week. Desired skills include programming, data analysis, VR, experimental psychology, HCI. Send your CV and a few sentences about why you're interested to Jakub.
+* **Student Assistants (SHK):** If you're a student at our university interested in the topics tackled at SPARC, get in touch - we might have open opportunities for up to 8hr/week. Desired skills include programming, data analysis, VR, experimental psychology, HCI. Send your CV and a few sentences about why you're interested to Jakub.
 
   * ~~PhD position for "SPACE-EYE: Spatial and Architectural Evidence from Movement-aware Eye-tracking" [link](https://stellen.uni-muenster.de/jobposting/c6c06b44a3d3c1c609e67147007a8f0229474e6d0?ref=homepage)~~
   * ~~PhD position for "In-and-Out: A cognitively-grounded integration of indoor and outdoor spatial computing"[link](https://stellen.uni-muenster.de/jobposting/b0524931b0fe98051bb191b2e6657f1acaeb80070?ref=homepage)~~

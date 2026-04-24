@@ -1,12 +1,9 @@
 ---
 title: Teaching & Theses
-description: Courses taught by Jakub Krukar, open thesis topics, LLM use policy, and thesis format.
+description: 
 show_title_as_headline: true
 show_comments: false
 ---
-
-# Courses taught
-
 Jakub leads the following courses at the Institute for Geoinformatics:
 
 - Wayfinding and Navigation (MSc, 5 ECTS, Winter Semester, together with Angela Schwering)

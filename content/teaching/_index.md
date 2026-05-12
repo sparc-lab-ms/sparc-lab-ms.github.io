@@ -55,10 +55,6 @@ The core requirement in all written assignments and theses: you must understand,
 - arguments that are technically incorrect or cannot be defended
 - lack of understanding of your own submission, e.g. using words or phrases that you cannot explain
 
-**Required documentation**
-
-For each written assignment and thesis submitted as a file (e.g., as a PDF), attach the LLM Use Checklist [generated via the form available here](https://claude.ai/public/artifacts/6339d68e-8eb7-4f8b-887f-46c2ac3a2875). Your answers to these questions do not affect the grade. Neither does the fact of using or not using LLMs. _You do not need to attach the Checklist for assignments submitted inside a text box in Learnweb, but the points above still apply to the grading policy._
-
 # How to write a good MSc thesis at SPARC
 
 A good thesis is dense with content, clearly structured, and reproducible. I recommend submitting your thesis in the format of a journal article. This saves you some writing but forces you to be precise and concise. Specific requirements:

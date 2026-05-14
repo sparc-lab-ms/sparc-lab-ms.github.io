@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw8 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header mb4">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">{{ .Title }}</h1>
+        {{ with .Description }}<p class="f5 measure lh-copy">{{ . | markdownify }}</p>{{ end }}
+      </header>
+
+      <section class="project-cards flex flex-wrap justify-between mt4">
+        {{ range (where .RegularPagesRecursive "Type" "project").ByWeight }}
+          {{ $p := . }}
+          {{ $images := .Resources.ByType "image" }}
+          {{ $img := $images.GetMatch "*feature*" }}
+          {{ if not $img }}{{ $img = $images.GetMatch "*hex*" }}{{ end }}
+          {{ if not $img }}{{ $img = (index ($images) 0) }}{{ end }}
+          <div class="project-card w-100 w-50-m w-third-l mb4 pr3-l">
+            <article class="ba b--custom-border-color pa3 h-100">
+              {{ with $img }}
+                <a href="{{ $p.RelPermalink }}" class="db mb3">
+                  <img class="db w-100" src="{{ .RelPermalink | absURL }}" alt="{{ $p.Title }}">
+                </a>
+              {{ end }}
+              <h2 class="f3 mv2 lh-title"><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+              {{ with .Params.subtitle }}<p class="f6 ttu tracked mt0 mb2 custom-heading-color">{{ . }}</p>{{ end }}
+              {{ $summary := cond (ne .Params.excerpt nil) .Params.excerpt .Summary }}
+              {{ with $summary }}<p class="f6 lh-copy mv2">{{ . | markdownify }}</p>{{ end }}
+              {{ with .Params.links }}
+              <p class="f6 mt3 mb0">
+                {{ range . }}
+                  {{ $prefix := cond (eq .icon_pack "ai") "ai" "fa" }}
+                  <a href="{{ .url }}" class="link mr2" aria-label="{{ .name }}"><i class="{{ .icon_pack }} {{ $prefix }}-{{ .icon }}"></i></a>
+                {{ end }}
+              </p>
+              {{ end }}
+            </article>
+          </div>
+        {{ end }}
+      </section>
+    </article>
+  </section>
+</main>
+{{ end }}

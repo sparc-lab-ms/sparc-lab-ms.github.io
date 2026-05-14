@@ -18,6 +18,7 @@
           <div class="ph0 ph2-m ph3-l">
             {{- $images := $page.Resources.ByType "image" -}}
             {{ $leaf := $images.GetMatch "*feature*" }}
+            {{- if not $leaf }}{{ $leaf = $images.GetMatch "*card*" }}{{ end -}}
             {{- $hex := $images.GetMatch "*hex*" -}}
             {{- $thumbnail := cond (ne $hex nil) $hex $leaf -}}
             {{ $branch := ($section.Resources.ByType "image").GetMatch "*feature*" }}
@@ -27,7 +28,7 @@
           {{ end }}
           <div class="ph0 pa2-m pa3-l">
             <header>
-              <h1 class="f3 f4-l mv2 lh-title fw4"><a href="{{ $page.RelPermalink }}" class="db">{{ $page.Title | markdownify }}</a></h1>
+              <h2 class="f3 mv2 lh-title"><a href="{{ $page.RelPermalink }}" class="link no-underline">{{ $page.Title | markdownify }}</a></h2>
             </header>
             {{ $summary := cond (ne $page.Params.excerpt nil) $page.Params.excerpt $page.Summary }}
             {{ with $summary }}<p class="f6 lh-copy">{{ . | markdownify | emojify }}</p>{{ end }}

@@ -4,4 +4,4 @@ draft: true
 layout: single
 ---
 
-Placeholder — superseded by individual PhD pages (`fengxu-tian`, `jung-won-lee`).
+Placeholder — superseded by individual PhD pages (`fengxu-tian`, `jung-won-lee`, `maximilian-elfers`).

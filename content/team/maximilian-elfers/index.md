@@ -5,7 +5,7 @@ excerpt: PhD candidate working on indoor navigation.
 date: '2026-04-01'
 author: Maximilian Elfers
 draft: false
-weight: 2
+weight: 4
 layout: single
 links:
 - icon: orcid

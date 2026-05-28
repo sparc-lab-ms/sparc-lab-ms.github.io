@@ -8,5 +8,4 @@ collective: true
 type: team
 ---
 
-- **Tilda Blomqvist** — Erasmus+ intern
-- **Moritz Denk** — student assistant
+- **Alex Rump** — ongoing MSc thesis (Spatial cognition in tabletop RPGs)

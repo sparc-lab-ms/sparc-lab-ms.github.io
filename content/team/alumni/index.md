@@ -8,6 +8,8 @@ collective: true
 type: team
 ---
 
+- **Tilda Blomqvist** — Erasmus+ intern
+- **Moritz Denk** — student assistant
 - **Amirtha Varshini Raja Sonathreesan Latha** — MSc thesis
 - **Ahmed Aly** — student assistant, MSc thesis
 - **Maximilian Elfers** — MSc thesis

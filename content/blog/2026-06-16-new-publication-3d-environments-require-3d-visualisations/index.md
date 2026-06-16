@@ -15,7 +15,7 @@ Our new paper is out in the _International Journal of Geographical Information S
 
 An interactive landing page with all data and a summary of results is available [here](https://kubakrukar.github.io/3dsmpaper/).
 
-![Sample 2D and 3D sketch maps from the study](image-1781594452914.png)
+![Sample 2D and 3D sketch maps from the study](sketch-maps-figure.png)
 
 **What we found:** Participants navigated two types of vertically-complex environments and drew both 2D (pen-and-paper) and 3D (VR) sketch maps. We coded the occurrence and correctness of qualitative spatial relations across all three dimensions.
 

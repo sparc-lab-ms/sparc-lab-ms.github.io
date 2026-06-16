@@ -31,4 +31,4 @@ I am Junior Professor in Spatial Cognition — a branch of cognitive science stu
 
 Methods I work with include virtual reality, mobile eye-tracking, spatial computation, Bayesian statistics, and architectural theory of Space Syntax.
 
-I am a Visiting Fellow at the [Future Cities Lab in Singapore](https://fcl.ethz.ch/), an Associate Editor at the open-access [Journal of Global Environmental Psychology](https://gep.psychopen.eu/index.php/gep), and head of the faculty's [Ethics Committee](https://www.uni-muenster.de/Geoinformatics/en/institute/organization/ethicscommitee.html). Prior to coming to Germany I was at Northumbria University in Newcastle, UK.
+I am a Visiting Fellow at the [Future Cities Lab in Singapore](https://fcl.ethz.ch/), an Associate Editor at the open-access [Journal of Global Environmental Psychology](https://gep.psychopen.eu/index.php/gep), and head of the Institute's [Ethics Committee](https://www.uni-muenster.de/Geoinformatics/en/institute/organization/ethicscommitee.html). Prior to coming to Germany I was at Northumbria University in Newcastle, UK.

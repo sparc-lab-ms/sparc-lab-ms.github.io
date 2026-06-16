@@ -3,7 +3,7 @@ title: "News"
 description: |
   Announcements, publications, talks, and lab updates from SPARC.
 author: "SPARC Lab"
-show_post_thumbnail: false
+show_post_thumbnail: true
 thumbnail_left: false
 show_author_byline: true
 show_post_date: true

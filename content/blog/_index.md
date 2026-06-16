@@ -4,7 +4,7 @@ description: |
   Announcements, publications, talks, and lab updates from SPARC.
 author: "SPARC Lab"
 show_post_thumbnail: true
-thumbnail_left: false
+thumbnail_left: true
 show_author_byline: true
 show_post_date: true
 show_button_links: false

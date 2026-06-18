@@ -27,8 +27,7 @@ and spatial computation in order to keep experimental setups immersive,
 realistic, and generalisable.
 
 We want to bring psychological evidence into architectural design:
-SPARC's mission is to create computational models, indices, and metrics
-that are usable in architectural practice. Guided by the principles of
+SPARC's mission is to develop **human-centered AI for architecture**: computational models, indices, and metrics grounded in psychological evidence and usable in architectural practice. Guided by the principles of
 [use-inspired basic research](https://en.wikipedia.org/wiki/Pasteur%27s_quadrant),
 we focus on those real-world challenges that push the boundaries of
 existing methods and theories.

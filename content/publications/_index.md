@@ -16,6 +16,12 @@ SPARC commits to Open Science principles. Supplemental material (transparency ch
 
 <ul class="pub-list">
 <li class="pub">
+<div class="pub-title">3D environments require 3D visualisations: the limitations of 2D sketch maps in capturing spatial knowledge</div>
+<div class="pub-authors"><strong>Krukar, J.</strong>, Aly, A., Baecker, L., Heming, L.M., Zhao, J., &amp; Schwering, A.</div>
+<div class="pub-venue"><em>International Journal of Geographical Information Science</em>.</div>
+<div class="pub-links"><a href="https://www.tandfonline.com/doi/full/10.1080/13658816.2026.2684650">open access PDF</a> · <a href="https://kubakrukar.github.io/3dsmpaper/">data, code &amp; demo</a></div>
+</li>
+<li class="pub">
 <div class="pub-title">Interpreting Architectural Drawings: The Role of Gaze and Gestures in Cognitive Offloading</div>
 <div class="pub-authors">Park, Y., <strong>Krukar, J.</strong>, Brösamle, M., Gero, J., &amp; Hölscher, C.</div>
 <div class="pub-venue"><em>Applied Cognitive Psychology</em>, 40(1), e70127.</div>

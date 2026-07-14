@@ -1,6 +1,6 @@
 ---
 title: Ahmed Aly joins SPARC, SPACE-EYE project begins
-date: '2026-06-16'
+date: '2026-07-01'
 author: SPARC Lab
 description: Ahmed Aly joins SPARC as a PhD candidate to work on the SPACE-EYE project, investigating the relationship between movement and visual attention in built environments.
 draft: false

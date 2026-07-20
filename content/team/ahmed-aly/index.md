@@ -11,7 +11,7 @@ links:
 - icon: envelope
   icon_pack: fas
   name: email
-  url: mailto:ahmed.aly@uni-muenster.de
+  url: mailto:aaly@uni-muenster.de
 ---
 
 I am a PhD student at the Institute for Geoinformatics, University of Münster, with a master's degree in Geoinformatics and Spatial Data Science and a background in civil engineering. My research interests include spatial cognition, human attention, and geoinformatics, particularly human interaction with built environments.

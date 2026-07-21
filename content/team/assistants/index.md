@@ -8,3 +8,4 @@ type: team
 ---
 
 - **Alex Rump** — ongoing MSc thesis (Spatial cognition in tabletop RPGs)
+- **Nazlı Yıldız** — MA intern

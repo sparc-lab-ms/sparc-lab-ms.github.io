@@ -1,6 +1,5 @@
 ---
 title: Alumni
-subtitle: Former members, visitors, and students supervised by SPARC
 date: '2024-01-01'
 draft: false
 weight: 99

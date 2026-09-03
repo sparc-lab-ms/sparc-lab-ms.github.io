@@ -22,6 +22,7 @@ More details are available on the [Swiss National Science Foundation website](ht
 
 ### Articles
 
+  * Raja, A.V., Xiao, T., Raubal, M., Schwering, A., & Krukar, J. (2026). How floor rotation fragments 3D cognitive maps. In *Spatial Cognition 2026*. Glasgow, UK.
   * Krukar, J., Aly, A., Baecker, L., Heming, L.M., Zhao, J., & Schwering, A. (2026). 3D environments require 3D visualisations: the limitations of 2D sketch maps in capturing spatial knowledge. *International Journal of Geographical Information Science*. [https://doi.org/10.1080/13658816.2026.2684650](https://doi.org/10.1080/13658816.2026.2684650)
   * Simonet, M., Vater, C., Abati, C., Zhong, S., Mavros, P., Schwering, A., Raubal, M., Hölscher, C., & Krukar, J. (2025). Probing mental representations of space through sketch mapping: a scoping review. *Cognitive Research: Principles and Implications, 10*(1). [https://doi.org/10.1186/s41235-025-00667-w](https://doi.org/10.1186/s41235-025-00667-w)
   * Xiao, T., Chen, Y., Zhong, S., Kiefer, P., Krukar, J., Kim, K.G., Hurni, L., Schwering, A., & Raubal, M. (2025). Sketch2Terrain: AI-driven real-time terrain sketch mapping in augmented reality. In *CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*. Yokohama, Japan: ACM Press. [https://doi.org/10.1145/3706598.3713467](https://doi.org/10.1145/3706598.3713467)

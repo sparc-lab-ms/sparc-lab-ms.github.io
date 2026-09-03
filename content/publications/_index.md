@@ -16,6 +16,12 @@ SPARC commits to Open Science principles. Supplemental material (transparency ch
 
 <ul class="pub-list">
 <li class="pub">
+<div class="pub-title">How Floor Rotation Fragments 3D Cognitive Maps</div>
+<div class="pub-authors">Raja, A.V., Xiao, T., Raubal, M., Schwering, A., &amp; <strong>Krukar, J.</strong></div>
+<div class="pub-venue">Spatial Cognition 2026, Glasgow, UK.</div>
+<div class="pub-links"><a href="https://www.gla.ac.uk/research/az/spatialreasoning/sc26/">conference</a></div>
+</li>
+<li class="pub">
 <div class="pub-title">3D environments require 3D visualisations: the limitations of 2D sketch maps in capturing spatial knowledge</div>
 <div class="pub-authors"><strong>Krukar, J.</strong>, Aly, A., Baecker, L., Heming, L.M., Zhao, J., &amp; Schwering, A.</div>
 <div class="pub-venue"><em>International Journal of Geographical Information Science</em>.</div>

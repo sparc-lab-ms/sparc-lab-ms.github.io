@@ -6,7 +6,7 @@
     <p class="f6 f5-ns measure lh-copy center">{{ .Description }}</p>
     {{ if .Params.show_author_byline }}<p class="f7 measure lh-copy tc center i">{{ if .Params.author }}Written by {{ .Params.author }}{{ end }}</p>{{ end }}
   </section>
-  <section class="blog-content db flex-ns flex-row-ns flex-wrap-ns items-start mw8 center">
+  <section class="blog-content db flex-ns flex-row-ns flex-wrap-ns items-stretch-ns mw8 center">
     {{ $pages := (where .RegularPagesRecursive "Type" "project") }}
     {{ range $pages }}
       {{ $page := . }}

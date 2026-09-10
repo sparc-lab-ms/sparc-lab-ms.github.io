@@ -16,6 +16,12 @@ SPARC commits to Open Science principles. Supplemental material (transparency ch
 
 <ul class="pub-list">
 <li class="pub">
+<div class="pub-title">Understanding Building Layouts from Minimal 360° Views: Effects of Viewpoint Overlap, Sequencing, and Landmarks</div>
+<div class="pub-authors">Aly, A., &amp; <strong>Krukar, J.</strong></div>
+<div class="pub-venue">COSIT 2026, <em>LIPIcs</em>, 393, 9:1–9:23.</div>
+<div class="pub-links"><a href="https://doi.org/10.4230/LIPIcs.COSIT.2026.9">open access PDF</a> · <a href="https://osf.io/8e7pf/">data</a> · <a href="https://github.com/ahmedsaly/LayoutRecStudy">code</a></div>
+</li>
+<li class="pub">
 <div class="pub-title">How Floor Rotation Fragments 3D Cognitive Maps</div>
 <div class="pub-authors">Raja, A.V., Xiao, T., Raubal, M., Schwering, A., &amp; <strong>Krukar, J.</strong></div>
 <div class="pub-venue">Spatial Cognition 2026, Glasgow, UK.</div>

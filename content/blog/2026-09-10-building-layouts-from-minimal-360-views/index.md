@@ -15,4 +15,6 @@ The Art Gallery Problem gives the fewest viewpoints needed to *see* every part o
 
 Fifty participants explored five buildings through minimal panoramic views and then picked the correct floor plan from similar alternatives. Visual overlap between consecutive views was not enough on its own. This study lets us simulate what are critical views inside a building that allow their visitors to understand the layout. 
 
+![Experimental conditions](featured.png)
+
 The study is part of the [What does it take to learn a building?](/projects/learn-a-building/) project, funded by JICE seed funding. The web-based experimental pipeline is open source on [GitHub](https://github.com/ahmedsaly/LayoutRecStudy) and the raw data are on [OSF](https://osf.io/8e7pf/).

@@ -1,5 +1,5 @@
 ---
-title: "Spatial and Architectural Cognition Lab"
+title: "Spatial and Architectural Cognition/Computation Lab"
 subtitle: "at the Institute for Geoinformatics in Münster, Germany"
 description: "Institute for Geoinformatics, University of Münster."
 images:
@@ -21,13 +21,9 @@ contact:
 ---
 
 We study how people perceive, remember, and move through buildings and
-urban environments, and how new technologies reshape those experiences.
-Our methods combine virtual reality, eye-tracking, Bayesian statistics,
-and spatial computation in order to keep experimental setups immersive,
-realistic, and generalisable.
-
-We want to bring psychological evidence into architectural design.
-SPARC's mission is to develop **human-centered AI for architecture**: computational models, indices, and metrics grounded in psychological evidence and usable in architectural practice. Guided by the principles of
-[use-inspired basic research](https://en.wikipedia.org/wiki/Pasteur%27s_quadrant),
-we focus on those real-world problems that push the boundaries of
-existing methods and theories.
+urban environments. With this evidence we contribute to **embodiment-based
+human-AI alignment in architecture**: making sure that AI-assisted design
+reflects what matters to the people who inhabit the resulting spaces. Our
+methods combine virtual reality, eye-tracking, Bayesian statistics, and
+spatial computation, guided by the principles of
+[use-inspired basic research](https://en.wikipedia.org/wiki/Pasteur%27s_quadrant).

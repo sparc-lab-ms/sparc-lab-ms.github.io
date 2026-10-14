@@ -8,7 +8,6 @@ type: team
 ---
 
 - **Alex Rump** — ongoing MSc thesis (Spatial cognition in tabletop RPGs)
-- **Caro Niebl** — ongoing MSc thesis
-- **Nazlı Yıldız** — MA intern
+- **Caro Niebl** — ongoing MSc thesis (Modelling perceived cycling safety)
 - **Nimesh Bhandari** — student assistant
 - **Sijan Rijal** — student assistant

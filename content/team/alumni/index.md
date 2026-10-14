@@ -7,6 +7,7 @@ collective: true
 type: team
 ---
 
+- **Nazlı Yıldız** — MA intern
 - **Tilda Blomqvist** — Erasmus+ intern
 - **Moritz Denk** — student assistant
 - **Amirtha Varshini Raja Sonathreesan Latha** — MSc thesis

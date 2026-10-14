@@ -8,6 +8,7 @@ type: team
 ---
 
 - **Alex Rump** — ongoing MSc thesis (Spatial cognition in tabletop RPGs)
+- **Caro Niebl** — ongoing MSc thesis
 - **Nazlı Yıldız** — MA intern
 - **Nimesh Bhandari** — student assistant
 - **Sijan Rijal** — student assistant

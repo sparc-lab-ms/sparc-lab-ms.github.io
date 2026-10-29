@@ -27,8 +27,4 @@ links:
   url: mailto:krukar@uni-muenster.de
 ---
 
-I am Junior Professor in Spatial Cognition — a branch of cognitive science studying how people think about, think in, and think with space. My background and approach are interdisciplinary, with an MA in psychology, a PhD from a department of architecture, and postdoctoral experience in geoinformatics.
-
-Methods I work with include virtual reality, mobile eye-tracking, spatial computation, Bayesian statistics, and architectural theory of Space Syntax.
-
-I am the head of the Institute's [Ethics Committee](https://www.uni-muenster.de/Geoinformatics/en/institute/organization/ethicscommitee.html). Previously, I was a Visiting Fellow at the [Future Cities Lab in Singapore](https://fcl.ethz.ch/) and, until 2026, an Associate Editor at the open-access [Journal of Global Environmental Psychology](https://gep.psychopen.eu/index.php/gep). Prior to coming to Germany I was at Northumbria University in Newcastle, UK.
+Jakub Krukar is Junior Professor in Spatial Cognition at the Institute for Geoinformatics, University of Münster, where he heads the Spatial and Architectural Cognition Lab (SPARC). His research asks how people think about, think in, and think with space, with a focus on wayfinding and the experience of buildings. He trained in psychology (MA, Warsaw), took his PhD at Northumbria University’s Department of Architecture in collaboration with Fine Arts, and moved into geoinformatics as a postdoc in Münster. His work combines virtual reality, mobile eye-tracking, spatial computation and Space Syntax. He has been a Visiting Fellow at the [Future Cities Lab Singapore](https://fcl.ethz.ch/), served as an Associate Editor of the [Journal of Global Environmental Psychology](https://gep.psychopen.eu/index.php/gep). He also heads the institute’s [Ethics Committee](https://www.uni-muenster.de/Geoinformatics/en/institute/organization/ethicscommitee.html) and the Graduate School of Geoinformatics.
